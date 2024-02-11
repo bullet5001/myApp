@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class basic {
     @GetMapping("/get")
     public String massage(){
-        return "Hello programmers";
+        return "Hello programmers keep motivated";
     }
 }

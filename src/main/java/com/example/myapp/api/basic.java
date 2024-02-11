@@ -8,7 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class basic {
     @GetMapping("/get")
-    public String massage(){
+    public String massage() {
         return "Hello programmers keep motivated";
+    }
+
+    @GetMapping("/message")
+    public void messagge() {
+        System.out.println("yes it is");
     }
 }
